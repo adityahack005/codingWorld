@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_us.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1-form">Contact Us</h1>
+
+      <div class="form">
+        <h2>Want to send us a message</h2>
+
+        <form action="mailto:duodev95@gmail.com">
+          <div class="name">
+            <label for="User_name" class="label">Name: </label>
+            <input type="text" class="form-control" name="User_name" id="User_name" required/>
+          </div>
+
+          <div class="email">
+            <label for="User_email" class="label">Email: </label>
+            <input type="email" class="form-control" name="User_email" id="User_email"
+            required>
+          </div>
+
+          <div class="message">
+            <label for="User_message" class="label">Message: </label>
+            <textarea id="User_message"  name="User_Message"
+            required></textarea> 
+          </div>
+
+          <div class="btn-grp flex">
+            <button type="submit" value="Submit Now" class="btn">Submit</button>
+            <button type="reset" value="Reset Now" class="btn">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
