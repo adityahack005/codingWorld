@@ -1,0 +1,31 @@
+@import url('index_aditya.css');
+
+.container h1{
+    text-align: left;
+    font-family: 'Viga',sans-serif;
+}
+h2{
+    font-size:1.4rem;
+}
+.h1-form{
+    font-size:0.8rem;
+    padding-left:12%;
+}
+form{
+    margin-top:25px;
+    font-family: 'Roboto',serif;
+    width:100%;
+}
+input[type="text"]{
+    display: inline-block;
+    width:100%;
+}
+.btn-grp{
+    margin-top: 30px;
+}
+@media (max-width:500px){
+    .container h1{
+        text-align:center;
+        padding-left:0;
+    }
+}
