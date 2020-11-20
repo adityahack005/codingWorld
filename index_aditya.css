@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+header{
+    position: relative;
+}
 header::before{
     content: "";
     background: url("bg-img_home.jpg") no-repeat center center/cover;
